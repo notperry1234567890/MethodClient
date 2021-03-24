@@ -26,7 +26,7 @@ public class Surround extends Module {
 
     Setting blocksPerTick = setmgr.add(new Setting("blocksPerTick", this, 10, 0, 10, true));
     Setting rotate = setmgr.add(new Setting("rotate", this, true));
-    Setting autoCenter = setmgr.add(new Setting("autoCenter", this, true));
+    Setting autoCenter = setmgr.add(new Setting("AutoCenter", this, true));
     Setting offInAir = setmgr.add(new Setting("offInAir", this, true));
     Setting BypassCenter = setmgr.add(new Setting("Bypass AutoCenter", this, true, autoCenter, 2));
     Setting Hand = setmgr.add(new Setting("Hand", this, "Mainhand", "Mainhand", "Offhand", "Both", "None"));
